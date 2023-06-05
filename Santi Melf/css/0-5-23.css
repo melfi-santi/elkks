@@ -1,0 +1,35 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    border: solid rgb(0, 0, 0) 4px;
+    border-radius: 10px;
+}
+menu h2{
+    color: blue;
+}
+menu h2:hover{
+    color: yellow(196, 145, 5);
+    font-size: 30px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+}
+section h1{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+section img{
+    border-radius: 400px;
+}
+body{
+    background-color: blue;
+}
