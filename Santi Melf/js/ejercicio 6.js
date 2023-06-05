@@ -7,4 +7,3 @@ var par_o_impar = numero
 numero = int(input("Ingrese un número entero: "));
 resultado = par_o_impar(numero);
 print(resultado);
-// pepito
