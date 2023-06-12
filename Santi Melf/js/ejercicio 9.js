@@ -35,3 +35,27 @@ Profesor.prototype.constructor = Profesor;
 Profesor.prototype.asignar = function(){
     console.log("el profesor " + this.nombre + " tiene la asignatura " + this.asignatura + " del nivel " + this.nivel);
 }
+
+function EstudianteInstancia() {
+    let nombre = document.querySelector("#Nombre").value;
+    let edad = document.querySelector("#Edad").value;
+    let genero = document.querySelector("#Genero").value;
+    let curso = document.querySelector("#Curso").value;
+    let grupo = document.querySelector("#Grupo").value;
+
+    let estudiante = new Estudiante(nombre,edad,genero,curso,grupo);
+
+    console.log(estudiante.registrar());
+}
+
+function ProfesorInstancias() {
+    let nombre = document.querySelector("#NombreP").value;
+    let edad = document.querySelector("#EdadP").value;
+    let genero = document.querySelector("#GeneroP").value;
+    let asignatura = document.querySelector("#Asignatura").value;
+    let Nivel = document.querySelector("#Nivel").value;
+
+    let profesor = new Profesor(nombre,edad,genero,asignatura,Nivel);
+
+    console.log(profesor.asignar());
+}
