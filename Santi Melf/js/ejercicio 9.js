@@ -45,6 +45,7 @@ function EstudianteInstancia() {
 
     let estudiante = new Estudiante(nombre,edad,genero,curso,grupo);
 
+    console.log(estudiante.obtDetalles());
     console.log(estudiante.registrar());
 }
 
@@ -57,5 +58,6 @@ function ProfesorInstancias() {
 
     let profesor = new Profesor(nombre,edad,genero,asignatura,Nivel);
 
+    console.log(profesor.obtDetalles());
     console.log(profesor.asignar());
 }
