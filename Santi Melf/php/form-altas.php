@@ -27,7 +27,12 @@ include 'menu.php';
 
 		<div class="grupoInputs">
 		<label for="edad">Edad:</label>
-		<input type="text" name="edad"><br>
+		<input type="number" name="edad"><br>
+	    </div>
+
+		<div class="grupoInputs">
+		<label for="foto">Archivo</label>
+		<input type="file" name="foto"><br>
 	    </div>
 
 		<div class="btn-submit">
