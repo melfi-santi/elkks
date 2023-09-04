@@ -33,6 +33,7 @@ include 'menu.php';
 		<div class="grupoInputs">
 		<label for="foto">Archivo</label>
 		<input type="file" name="foto"><br>
+		<img src="">
 	    </div>
 
 		<div class="btn-submit">
