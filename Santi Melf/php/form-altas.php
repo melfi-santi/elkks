@@ -37,7 +37,6 @@ include 'menu.php';
 
 		<div class="btn-submit">
 		<input type="submit" value="Grabar"><br>
-		<img src="../img/Messi.jpg"></img>
 	    </div>
 	</form>
 </div>
