@@ -3,13 +3,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(130, 22, 188);
+    background-color: #191c20;
 }
 
 .header{
     display: flex;
     flex-direction: column;
-    background-color: rgb(164, 56, 222);
+    background-color: #191c20;
     height: 120px;
 }
 
