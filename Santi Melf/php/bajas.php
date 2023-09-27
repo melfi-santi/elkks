@@ -10,7 +10,7 @@ include 'menu.php';
 
 $ape = $_POST['apellido'];
 
-$base = "gestion";
+$base = "gestionsubir";
 $Conexion =  mysqli_connect("localhost","root","",$base);
 if($Conexion){
 	echo "la conexion fue exitosa "."<br>";
