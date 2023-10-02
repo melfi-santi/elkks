@@ -13,8 +13,9 @@ include 'menu.php';
 <body>
 
 <div class="container">
+	<div class="form-contenido">
 	<center>
-    <h3 class="altaTitulo">formulario altas</h3>
+    <h3 class="altaTitulo">Formulario de inscripción</h3>
 	<form class="altaInput" action="altas.php" method="POST" enctype="multipart/form-data">
 		<div class="grupoInputs">
 		<label for="apellido">Apellido:</label>
@@ -40,7 +41,8 @@ include 'menu.php';
 		<input type="submit" value="Grabar"><br>
 	    </div>
 	</form>
-</center>
+	</center>
+	</div>
 </div>
 	
 	

@@ -3,19 +3,19 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #191c20;
+    background-image: radial-gradient(circle at 64.45% 19.01%, #b23796 0, #a02c9a 16.67%, #8a229d 33.33%, #6e1aa0 50%, #4918a3 66.67%, #001ba6 83.33%, #001fa9 100%);
 }
 
 .header{
     display: flex;
     flex-direction: column;
-    background-color: #191c20;
+    background-color: #ffffff;
     height: 120px;
 }
 
 .titulo{
     text-align: center;
-    color: rgb(68, 66, 66);
+    color: rgb(0, 0, 0);
 }
 
 .menu{
@@ -26,8 +26,8 @@ body{
 .menu a{
     text-decoration: none;
     padding: 10px;
-    color: rgb(255, 0, 0);
-    background-color: rgb(38, 38, 96);
+    color: rgb(255, 255, 255);
+    background-image: radial-gradient(circle at 64.45% 19.01%, #b23796 0, #a02c9a 16.67%, #8a229d 33.33%, #6e1aa0 50%, #4918a3 66.67%, #001ba6 83.33%, #001fa9 100%);
     margin: 10px;
     border-radius: 30%;
 }

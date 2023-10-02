@@ -1,12 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-
 .container{
     height: 100vh;
     display: flex;
     justify-content: center;
-}
-
-.form-contenido{
     margin: 50px;
     display: flex;
     flex-direction: column;
