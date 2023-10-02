@@ -7,11 +7,13 @@ include 'menu.php';
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Formulario de Bajas</title>
-	<link rel="stylesheet" href="../css/formAltas.css">
+	<link rel="stylesheet" href="../css/form-Bajas.css">
 </head>
 <body>
 
 <div class="container">
+<div class="form-contenido">
+	<center>
 	<h3 class="altaTitulo" style="text-align: center;">FORMULARIO DE BAJA</h3>
 	<form class="altaInput" action="bajas.php" method="POST" >
 	    <div class="grupoInputs">
@@ -23,6 +25,8 @@ include 'menu.php';
 		<input type="submit" value="Eliminar"><br>
         </div>
 	</form>
+	</center>
+</div>
 </div>
 	
 </body>

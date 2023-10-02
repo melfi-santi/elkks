@@ -12,6 +12,8 @@ include 'menu.php';
 <body>
 
 <div class="container">
+<div class="form-contenido">
+	<center>
 	<h3 class="altaTitulo">FORMULARIO DE MODIFICACION</h3>
 	<form class="altaInput" action="modificacion.php" method="POST" >
 	<div class="grupoInputs">
@@ -36,6 +38,8 @@ include 'menu.php';
 		<input type="submit" value="Modificar"><br>
 	    </div>
 	</form>
+	</center>
+</div>
 </div>
 	
 </body>
