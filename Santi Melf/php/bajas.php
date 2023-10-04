@@ -1,8 +1,4 @@
 
-<html lang="es">
-</html>
-
-
 <?php 
 
 include 'menu.php';
